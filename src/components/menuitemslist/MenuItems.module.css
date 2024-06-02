@@ -1,0 +1,94 @@
+.heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.375;
+  margin: 0px;
+  color: #243e63;
+}
+
+.subHeading {
+  background-color: #6415ff;
+  color: #f3f4f6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transform: skewX(-12deg);
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.375;
+}
+
+.mainCard {
+  max-width: 345px;
+  margin: 20px;
+  background: #EDF2F7;
+  cursor: pointer;
+}
+
+.imageBox {
+  position: relative;
+}
+
+.ratingBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.starIcon {
+  margin-right: 2px;
+  color: #F6AD55;
+}
+
+.cardMedia {
+  height: 200px;
+  width: 100%;
+}
+
+.title{
+font-weight: 600;
+font-size: 1.125rem;
+}
+
+.content{
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #718096;
+}
+
+.price{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+
+  .subHeading {
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+
+  .subHeading {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+}

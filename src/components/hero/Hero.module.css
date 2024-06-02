@@ -1,0 +1,103 @@
+/* Hero.module.css */
+
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.textContainer {
+  width: 100%;
+}
+
+.textContainer {
+  width: 48%;
+}
+
+.imageContainer {
+  width: 48%;
+}
+
+.image {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.375;
+  margin: 0px;
+  color: #243e63;
+}
+
+.subHeading {
+  background-color: #6415ff;
+  color: #f3f4f6;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transform: skewX(-12deg);
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.375;
+}
+
+.headingText {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #7180a4;
+  max-width: 32rem; /* Equivalent to 512px */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1024px) {
+  .headingText {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .textContainer {
+    width: 100%;
+  }
+
+  .imageContainer {
+    width: 100%;
+  }
+  .heading {
+    font-size: 2rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+
+  .subHeading {
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+
+  .subHeading {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-align: center; /* Align center on smaller screens */
+  }
+}

@@ -1,0 +1,17 @@
+.navList {
+  display: none;
+}
+
+.navListLg {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* equivalent to gap-5 */
+  font-size: 0.875rem; /* equivalent to text-sm */
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* equivalent to gap-1 */
+  transition: color 0.3s ease;
+}
